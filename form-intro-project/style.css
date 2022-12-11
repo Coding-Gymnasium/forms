@@ -48,3 +48,33 @@ body {
   margin: 25px 0;
   padding: var(--main-padding);
 }
+
+/* --- Input Text Styles --- */
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.form-row input[type="text"] {
+  border-radius: var(--border-radius);
+  color: var(--color-main);
+  font-size: var(--input-text-size);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(186, 189, 190);
+  padding: 7px;
+  width: var(--widget-width);
+}
+
+.form-row label {
+  margin-bottom: 20px;
+  padding-right: var(--label-padding-right);
+  text-align: right;
+  margin-top: 5px;
+}
+
+.profile-header,
+.profile-form {
+  width: 600px;
+}
