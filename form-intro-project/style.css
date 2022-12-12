@@ -81,9 +81,29 @@ body {
   padding-right: var(--label-padding-right);
   text-align: right;
   margin-top: 5px;
+  width: var(--label-width);
 }
 
 .profile-header,
 .profile-form {
   width: 600px;
+}
+
+/* --- Radio Button Styles --- */
+
+.radio-form-row {
+  border: none;
+  margin-bottom: var(--margin-bottom);
+}
+
+.radio-form-row .radio-label {
+  font-size: var(--input-text-size);
+  padding: 2px 20px 0 4px;
+}
+
+.radio-form-row legend {
+  width: var(--label-width);
+  padding-right: var(--label-padding-right);
+  text-align: right;
+  float: left;
 }
