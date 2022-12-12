@@ -107,3 +107,10 @@ body {
   text-align: right;
   float: left;
 }
+/* --- Dropdown Menu Styles --- */
+
+.form-row select {
+  padding: 5px;
+  font-size: 14px;
+  width: var(--widget-width);
+}
