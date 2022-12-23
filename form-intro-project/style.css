@@ -81,7 +81,7 @@ body {
   margin-bottom: 1.25rem;
   padding-right: var(--label-padding-right);
   text-align: right;
-  margin-top: .3125rem;
+  margin-top: 0.3125rem;
   width: var(--label-width);
 }
 
@@ -111,7 +111,7 @@ body {
 /* --- Dropdown Menu Styles --- */
 
 .form-row select {
-  padding: .3125rem;
+  padding: 0.3125rem;
   font-size: 0.875rem;
   width: var(--widget-width);
 }
@@ -131,8 +131,13 @@ body {
 
 .form-row .description {
   color: #999999;
-  font-size: .875rem;
+  font-size: 0.875rem;
   margin-bottom: var(--margin-bottom);
   margin-left: var(--label-width);
   width: var(--widget-width);
+}
+
+.form-row .checkbox-label {
+  margin-left: var(--label-width);
+  width: auto;
 }
