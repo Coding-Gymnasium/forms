@@ -17,13 +17,13 @@ body {
 
 /* --- Style Variables --- */
 :root {
-  --margin-bottom: 10px;
-  --label-padding-right: 20px;
-  --label-width: 200px;
-  --widget-width: 250px;
+  --margin-bottom: 0.625rem;
+  --label-padding-right: 1.25rem;
+  --label-width: 12.5rem;
+  --widget-width: 15.625rem;
   --border-radius: 4px;
-  --main-padding: 30px;
-  --input-text-size: 14px;
+  --main-padding: 1.875rem;
+  --input-text-size: 0.875rem;
   --color-main: #5d6063;
   --color-red: rgb(212, 53, 56);
   --color-light-gray: rgb(186, 189, 190);
@@ -44,10 +44,10 @@ body {
 .profile-header {
   text-align: center;
   background-color: rgb(230, 230, 230);
-  border: 1px solid var(--color-light-gray);
+  border: 0.0625rem solid var(--color-light-gray);
   border-radius: var(--border-radius);
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
-  margin: 25px 0;
+  box-shadow: 0px 0.0625rem 0.125rem rgba(0, 0, 0, 0.5);
+  margin: 1.5625rem 0;
   padding: var(--main-padding);
 }
 
@@ -65,28 +65,29 @@ body {
   color: var(--color-main);
   font-size: var(--input-text-size);
   background-color: rgb(255, 255, 255);
-  border: 1px solid var(--color-light-gray);
-  padding: 7px;
+  border: 0.0625rem solid var(--color-light-gray);
+  padding: 0.4375rem;
   width: var(--widget-width);
 }
 
 .form-row input[type="email"]:invalid {
   outline: none;
-  border: 1.5px solid var(--color-red);
+  border: 0.09375rem solid var(--color-red);
   color: var(--color-red);
   box-shadow: none;
 }
+
 .form-row label {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   padding-right: var(--label-padding-right);
   text-align: right;
-  margin-top: 5px;
+  margin-top: .3125rem;
   width: var(--label-width);
 }
 
 .profile-header,
 .profile-form {
-  width: 600px;
+  width: 37.5rem;
 }
 
 /* --- Radio Button Styles --- */
@@ -98,7 +99,7 @@ body {
 
 .radio-form-row .radio-label {
   font-size: var(--input-text-size);
-  padding: 2px 20px 0 4px;
+  padding: 0.125rem 1.25rem 0 0.25rem;
 }
 
 .radio-form-row legend {
@@ -110,7 +111,20 @@ body {
 /* --- Dropdown Menu Styles --- */
 
 .form-row select {
-  padding: 5px;
-  font-size: 14px;
+  padding: .3125rem;
+  font-size: 0.875rem;
+  width: var(--widget-width);
+}
+
+/* ---  Textarea Styles --- */
+
+.form-row textarea {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 0.875rem;
+  border: 1px solid #d6d9dc;
+  border-radius: var(--border-radius);
+  min-height: 6.25rem;
+  margin-bottom: var(--margin-bottom);
+  padding: 0.625rem;
   width: var(--widget-width);
 }
